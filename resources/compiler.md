@@ -22,6 +22,10 @@ $ yarn global add rapid-lang
 To run compiler you will need **Node 12** or newer. Go to [https://nodejs.org/en/download/](https://nodejs.org/en/download/) to get installation files.
 {% endhint %}
 
+{% hint style="success" %}
+[Rapid Compiler](compiler.md) and [Rapid CLI](cli.md) works on `OS X`, `Windows`and `Linux`.
+{% endhint %}
+
 ### Example usage
 
 Compiles `file.rapid` and outputs `app.wasm` with `sourcemaps` ready to be run in browser.
