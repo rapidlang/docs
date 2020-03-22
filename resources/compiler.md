@@ -4,7 +4,7 @@ description: Create ready to use binary from source files
 
 # Compiler
 
-## Installation
+### Installation
 
 With `NPM`:
 
