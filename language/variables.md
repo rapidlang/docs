@@ -24,10 +24,10 @@ let users: string[] = ['Annie', 'John']
 You don't need to declare variable type for basic types like numbers and strings - they are inferred automatically. Type declaration is necessary in complex data structures like `Arrays`, `Sets` etc.
 {% endhint %}
 
-## Definition
+### Definition
 
 {% tabs %}
-{% tab title="Declaration" %}
+{% tab title="Definition" %}
 ```javascript
  let <variable_name>: <type>? = <value>
 ```
