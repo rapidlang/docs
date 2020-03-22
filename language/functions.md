@@ -1,7 +1,3 @@
----
-description: Do instructions.
----
-
 # Functions
 
 ## Example

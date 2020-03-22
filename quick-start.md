@@ -1,3 +1,7 @@
+---
+description: Start in seconds
+---
+
 # Quick start
 
 ### Create some file with Rapid source code
