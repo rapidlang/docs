@@ -1,6 +1,6 @@
 # Quick start
 
-### Create some file with RAPID source code
+### Create some file with Rapid source code
 
 {% tabs %}
 {% tab title="main.rapid" %}
@@ -14,9 +14,9 @@ function main(): int {
 
 This is the simplest function named main which returns number 12.
 
-### Use RAPID Compiler
+### Use Rapid Compiler
 
-If you don't have it installed yet go to [Compiler](resources/compiler.md) section. Point your RAPID file and compile it like:
+If you don't have it installed yet go to [Compiler](resources/compiler.md) section. Point your `Rapid` file and compile it like:
 
 {% tabs %}
 {% tab title="Bash" %}
@@ -54,7 +54,7 @@ Create a simple `HTML` file and inject binary:
 {% endtabs %}
 
 {% hint style="info" %}
-This approach is using the compiler directly. You can also use [`RAPID CLI`](resources/cli.md) to bootstrap development environment in seconds.
+This approach is using the compiler directly. You can also use [Rapid CLI](resources/cli.md) to bootstrap development environment in seconds.
 {% endhint %}
 
 ### Result

@@ -2,5 +2,5 @@
 description: Work in progress
 ---
 
-# RAPID CLI
+# Rapid CLI
 

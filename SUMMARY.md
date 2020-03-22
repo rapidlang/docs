@@ -7,7 +7,7 @@
 
 * [Debugging](resources/debugging.md)
 * [Compiler](resources/compiler.md)
-* [RAPID CLI](resources/cli.md)
+* [Rapid CLI](resources/cli.md)
 
 ## Language
 
