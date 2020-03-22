@@ -29,7 +29,7 @@ Compiles `file.rapid` and outputs `app.wasm` with `sourcemaps` ready to be run i
 {% tabs %}
 {% tab title="Bash" %}
 ```text
-$ wasm -f file.rapid -o app.wasm -s
+$ rapid file.rapid -o app.wasm -s
 ```
 {% endtab %}
 
@@ -68,8 +68,6 @@ end
 **`--help`** Show help **\[boolean\]**
 
 **`--version`** Show version number **\[boolean\]**
-
-**`-f, --file`** Path to source file to be compiled **\[string\] \[required\]**
 
 **`-o, --output`** Path to result file to be saved **\[string\] \[required\]**
 
