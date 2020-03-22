@@ -21,7 +21,7 @@ If you don't have it installed yet go to [Compiler](resources/compiler.md) secti
 {% tabs %}
 {% tab title="Bash" %}
 ```bash
-$ rapid -f main.rapid -o main.wasm
+$ rapid main.rapid -o main.wasm
 ```
 {% endtab %}
 {% endtabs %}
