@@ -20,7 +20,7 @@ This is the simplest function named main which returns number 12.
 
 ### Use Rapid Compiler
 
-If you don't have it installed yet go to [Compiler](resources/compiler.md) section. Point your `Rapid` file and compile it like:
+If you don't have it installed yet go to [Compiler](resources/compiler.md) section. Point your `.rapid` file and compile it like:
 
 {% tabs %}
 {% tab title="Bash" %}
@@ -31,12 +31,12 @@ $ rapid main.rapid -o main.wasm
 {% endtabs %}
 
 {% hint style="info" %}
-This will output production-ready `WASM` binary file ready to use in browser without `sourcemaps` and without `Webassembly Text Format`. If you want debugging or more compiler options see [Compiler](resources/compiler.md) section.
+This will output production-ready _WASM_ binary file ready to use in browser without _sourcemaps_ and without _Webassembly Text Format_. If you want debugging or more compiler options see [Compiler](resources/compiler.md) section.
 {% endhint %}
 
 ### Use binary in the browser
 
-Create a simple `HTML` file and inject binary:
+Create a simple `.html` file and inject binary:
 
 {% tabs %}
 {% tab title="index.html" %}
