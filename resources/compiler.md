@@ -12,12 +12,6 @@ With `NPM`:
 $ npm i rapid-lang -g
 ```
 
-or `Yarn`:
-
-```text
-$ yarn global add rapid-lang
-```
-
 {% hint style="info" %}
 To run compiler you will need **Node 12** or newer. Go to [https://nodejs.org/en/download/](https://nodejs.org/en/download/) to get installation files.
 {% endhint %}
