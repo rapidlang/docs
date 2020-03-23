@@ -31,7 +31,7 @@ $ rapid main.rapid -o main.wasm
 {% endtabs %}
 
 {% hint style="info" %}
-This will output production-ready _WASM_ binary file ready to use in browser without _sourcemaps_ and without _Webassembly Text Format_. If you want debugging or more compiler options see [Compiler](resources/compiler.md) section.
+This will output production-ready _WASM_ binary file ready to use in browser without sourcemaps and without _Webassembly Text Format_. If you want debugging or more outputs see [Compiler](resources/compiler.md) and [Debugging](resources/debugging.md) section.
 {% endhint %}
 
 ### Use binary in the browser

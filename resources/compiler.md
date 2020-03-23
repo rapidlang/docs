@@ -17,12 +17,12 @@ To run compiler you will need **Node 12** or newer. Go to [https://nodejs.org/en
 {% endhint %}
 
 {% hint style="success" %}
-[Rapid Compiler](compiler.md) and [Rapid CLI](cli.md) works on `OS X`, `Windows`and `Linux`.
+[Rapid Compiler](compiler.md) and [Rapid CLI](cli.md) works on **OS X**, **Windows** and **Linux**.
 {% endhint %}
 
 ### Example usage
 
-Compiles `file.rapid` and outputs `app.wasm` with `sourcemaps` ready to be run in browser.
+Compiles `file.rapid` and outputs `app.wasm` with sourcemaps ready to be run in browser.
 
 {% tabs %}
 {% tab title="Bash" %}

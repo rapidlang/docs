@@ -2,7 +2,7 @@
 
 ## Example
 
-This is the simplest function which is named **`example`**, takes no parameters and returns a number of type **`int`**.
+This is the simplest function which is named `example`, takes no parameters and returns a number of type `int`.
 
 {% tabs %}
 {% tab title="example.rapid" %}
@@ -16,7 +16,7 @@ function example(): int {
 
 ## Return statement
 
-Return statement consists of **`return`** keyword and an expression.
+Return statement consists of `return` keyword and an expression.
 
 Supported expression types:
 
@@ -35,6 +35,6 @@ function <name>(<param1>: <param_type>, ...): <return_type> {
 {% endtabs %}
 
 {% hint style="info" %}
-If function return type is specified as **`void`** then return statement is obsolete.
+If function return type is specified as **void** then return statement is obsolete.
 {% endhint %}
 
