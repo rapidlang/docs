@@ -8,6 +8,7 @@
 * [Debugging](resources/debugging.md)
 * [Compiler](resources/compiler.md)
 * [Rapid CLI](resources/cli.md)
+* [Project structure](resources/project-structure.md)
 
 ## Language
 

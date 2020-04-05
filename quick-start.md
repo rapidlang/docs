@@ -4,62 +4,43 @@ description: Start in seconds
 
 # Quick start
 
-### Create some file with Rapid source code
+### Use Rapid CLI
 
-{% tabs %}
-{% tab title="main.rapid" %}
-```javascript
-function main(): int {
-  return 12
-}
-```
-{% endtab %}
-{% endtabs %}
-
-This is the simplest function named main which returns number 12.
-
-### Use Rapid Compiler
-
-If you don't have it installed yet go to [Compiler](resources/compiler.md) section. Point your `.rapid` file and compile it like:
+Install [Rapid CLI](resources/cli.md) first:
 
 {% tabs %}
 {% tab title="Bash" %}
 ```bash
-$ rapid main.rapid -o main.wasm
+$ npm i @rapid-lang/cli -g
 ```
 {% endtab %}
 {% endtabs %}
 
-{% hint style="info" %}
-This will output production-ready _WASM_ binary file ready to use in browser without sourcemaps and without _Webassembly Text Format_. If you want debugging or more outputs see [Compiler](resources/compiler.md) and [Debugging](resources/debugging.md) section.
-{% endhint %}
-
-### Use binary in the browser
-
-Create a simple `.html` file and inject binary:
+Then create an example Rapid project using handy CLI prompts:
 
 {% tabs %}
-{% tab title="index.html" %}
+{% tab title="Bash" %}
 ```bash
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <script>
-      WebAssembly.instantiateStreaming(fetch('main.wasm'), {}).then(results => {
-        console.log(results.instance.exports.main());
-      });
-    </script>
-  </head>
-  <body></body>
-</html>
+$ rapid init
 ```
 {% endtab %}
 {% endtabs %}
 
 {% hint style="info" %}
-This approach is using the compiler directly. You can also use [Rapid CLI](resources/cli.md) to bootstrap development environment in seconds.
+The`rapid init` command will create example project structure. Go to [Project Structure](resources/project-structure.md) page to see in depth article what is created and what files are used for what purposes.
 {% endhint %}
+
+Finally run the development server and start coding !
+
+{% tabs %}
+{% tab title="Bash" %}
+```bash
+$ rapid run
+```
+{% endtab %}
+{% endtabs %}
+
+Start editing `main.rapid` inside `src` folder.
 
 ### Result
 
