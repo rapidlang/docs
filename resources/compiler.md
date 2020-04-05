@@ -9,7 +9,7 @@ description: Create ready to use binary from source files
 With `NPM`:
 
 ```
-$ npm i rapid-lang -g
+$ npm i @rapid-lang/compiler -g
 ```
 
 {% hint style="info" %}
@@ -27,7 +27,7 @@ Compiles `file.rapid` and outputs `app.wasm` with sourcemaps ready to be run in 
 {% tabs %}
 {% tab title="Bash" %}
 ```text
-$ rapid file.rapid -o app.wasm -s
+$ rapid-compiler file.rapid -o app.wasm -s
 ```
 {% endtab %}
 
@@ -63,13 +63,16 @@ end
 
 ### API
 
-**`--help`** Show help **\[boolean\]**
+```text
+Commands:
+  index.js source  Path to source file to be compiled
 
-**`--version`** Show version number **\[boolean\]**
-
-**`-o, --output`** Path to result file to be saved **\[string\] \[required\]**
-
-**`-s, --sourceMaps`** Generate sourceMaps for debugging **\[boolean\]**
-
-**`-t, --textFormat`** Generate WebAssembly Text Format \(wat\) file **\[string\]**
+Options:
+  -o, --output      Path to result file to be saved          [string] [required]
+  -h, --help        Show help                                          [boolean]
+  -v, --version     Show version number                                [boolean]
+  -s, --sourceMaps  Generate sourceMaps for debugging                  [boolean]
+  -t, --textFormat  Generate WebAssembly Text Format (wat) file         [string]
+  -p, --port        Sourcemaps default port                             [number]
+```
 
