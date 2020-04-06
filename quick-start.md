@@ -16,6 +16,10 @@ $ npm i @rapid-lang/cli -g
 {% endtab %}
 {% endtabs %}
 
+{% hint style="info" %}
+You need Node 12 or later installed to use Rapid CLI. Go to [download section](https://nodejs.org/en/download/) to get the package.
+{% endhint %}
+
 Then create an example Rapid project using handy CLI prompts:
 
 {% tabs %}
