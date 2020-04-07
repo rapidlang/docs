@@ -14,5 +14,7 @@ description: What and why
 * smaller binary size
 * open source, driven by community
 
+## [Get started](quick-start.md) now !
+
 
 
